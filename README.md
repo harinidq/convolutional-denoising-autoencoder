@@ -75,7 +75,7 @@ x = layers.Conv2D(16, (3, 3), activation='relu')(x)
 x = layers.UpSampling2D((2, 2))(x)
 decoded = layers.Conv2D(1, (3, 3), activation='sigmoid', padding='same')(x)
 autoencoder = keras.Model(input_img, decoded)
-print('Name: PREMA LATHA S    Register Number: 212222230112       ')
+print('Name: HARINI M D   Register Number: 212222230043       ')
 autoencoder.summary()
 ```
 ##### Compiling and Fitting the Model
